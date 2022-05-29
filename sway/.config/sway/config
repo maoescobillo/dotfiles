@@ -232,10 +232,13 @@ mode "resize" {
   # borders:
   default_border pixel 2
   default_floating_border pixel 2
+  smart_borders on
+  hide_edge_borders none
   
   # gaps between windows:
   gaps inner 2
   gaps outer 4
+  smart_gaps on
 
 # waybar:
 bar {
