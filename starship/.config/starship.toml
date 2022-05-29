@@ -1,0 +1,18 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+format = "$all"
+
+[username]
+style_user = "white bold"
+style_root = "red bold"
+format = "[$user]($style) "
+disabled = false
+show_always = true
+
+[character]
+format = "$symbol [  ](fg:#FDFDFD)"
+success_symbol = "[](bold fg:#42BE65)"
+error_symbol = "[](bold fg:#FF334E)"
+
+[directory]
+style = "bold cyan"
