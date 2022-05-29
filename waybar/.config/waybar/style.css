@@ -1,0 +1,103 @@
+* {
+    font-family: Liga SFMono Nerd Font;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: transparent;
+    color: #dfdfdf;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #1b1e2b;
+    box-shadow: inset 0 -3px transparent;
+    border: none;
+    border-radius: 0;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -3px #08bdba;
+}
+
+#workspaces button.focused {
+    background-color: transparent;
+    box-shadow: inset 0 -3px #282828;
+}
+
+#workspaces button.urgent {
+    background-color: transparent;
+    color: #3ddbd9;
+}
+
+#mode {
+    background-color: transparent;
+    border-bottom: 3px solid #282828;
+    color: #1b1e2b;
+}
+
+#clock,
+#battery,
+#memory,
+#network,
+#pulseaudio,
+#mode {
+    padding: 0 10px;
+    color: #dfdfdf;
+}
+
+#window,
+#workspaces {
+    margin: 0 4px;
+}
+
+#clock 
+#battery 
+#memory
+#network {
+    background-color: transparent;
+}
+
+#battery.charging, #battery.plugged {
+    color: #3ddbd9;
+    background-color: transparent;
+}
+
+@keyframes blink {
+    to {
+        background-color: #3ddbd9;
+        color: #dfdfdf;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: transparent;
+    color: #3ddbd9;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: transparent;
+    color: #3ddbd9;
+}
+
+#network.disconnected {
+    background-color: transparent;
+    color: #3ddbd9;
+}
+
+#pulseaudio {
+    background-color: transparent;
+    color: #dfdfdf;
+}
+
+#pulseaudio.muted {
+    background-color: transparent;
+    color: #3ddbd9;
+}

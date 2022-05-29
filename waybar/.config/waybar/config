@@ -1,0 +1,62 @@
+{
+    "position": "top",
+    "height": 26,
+    "spacing": 4,
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["sway/window"],
+    "modules-right": [  "pulseaudio", "network", "memory", "battery", "clock" ],
+
+     "sway/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "format": "{icon}",
+         "format-icons": {
+            "1": " term",
+            "2": " web",
+            "3": " file",
+            "4": " dev",
+            "5": "",
+            "6": " play",
+            "7": " edit",
+            "8": "漣system",
+         }
+     },
+
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "clock": {
+        "format": " {:%I:%M%p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    },
+    "memory": {
+        "format": " {}%"
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        "format-wifi": "  Connected",
+        "format-disconnected": "⚠ Disconnected",
+        "on-click": "alacritty -e 'nmtui'"
+    },
+    "pulseaudio": {
+		    "tooltip": false,
+		    "scroll-step": 5,
+		    "format": "{icon} {volume}%",
+		    "format-muted": " {volume}%",
+		    "on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		    "scroll-step": 1,
+		    "format-icons": {
+			  "default": ["奄", "奔", "墳"]
+		},
+  }
+}
