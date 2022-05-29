@@ -1,0 +1,23 @@
+max-visible=2
+anchor=top-right
+
+width=280
+height=200
+margin=16
+padding=16
+
+border-size=0
+
+default-timeout=5000
+max-icon-size=32
+font=Liga SFMono Nerd Font 10
+background-color=#1B1E2B
+text-color=#FDFDFD
+
+[urgency="low"]
+background-color=#1B1E2B
+text-color=#3DDBD9
+
+[urgency="high"]
+background-color=#1B1E2B
+text-color=#FF7EB6
