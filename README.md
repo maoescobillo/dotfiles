@@ -3,10 +3,10 @@ dotfiles
 </h1>
 <p align="center">
 
-<samp><b>Mao's linux custom config files<em>WIP</em></b></samp>
+<samp><b>Mao's linux custom config files <em>WIP</em></b></samp>
 
 <p align="center">
-<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WM | Sway<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
+<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WM | Sway<br>Terminal | Alacritty<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
 
   - WM: Sway
   - Terminal: Alacritty
