@@ -1,11 +1,41 @@
-WIP
+<h1 align="center">
+dotfiles
+</h1>
+<p align="center">
+<sub><em>WIP..</em></sub>
+</p>
 
-<samp><b>Anthony's VS Code Settings</b></samp>
+<samp><b>Mao's linux custom config files</b></samp>
 
-[`.vscode/settings.json`](./.vscode/settings.json)<br>
-[`.vscode/extensions.json`](./.vscode/extensions.json)
+###### Dependencies 
+  - WM: Sway
+  - Terminal: Alacritty
+  - Shell: zsh, bash
+  - Font: [SF Mono Nerd Font Ligaturized] (https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized)
+  - Notification: Mako
+  - Text Editor: Neovim
+  - PDF Viewer: Zathura
+  - File Manager: Thunar, ranger
+  - Web Browser: Brave, firefox
+  - Status Bar: Waybar
+  - Launcher: Rofi
 
+###### Installation
 
+### Stow
+`git`
+
+```ts
+// clone directory
+git clone https://github.com/maoescobillo/dotfiles.git
+```
+
+`stow`
+
+```ts
+// stow to symlink
+stow waybar #config file
+```
 <br>
 <br>
 <p align="center"><samp>Preview</samp></p>

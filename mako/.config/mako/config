@@ -16,8 +16,8 @@ text-color=#FDFDFD
 
 [urgency="low"]
 background-color=#1B1E2B
-text-color=#3DDBD9
+text-color=#FDFDFD
 
 [urgency="high"]
 background-color=#1B1E2B
-text-color=#FF7EB6
+text-color=#3DDBD9

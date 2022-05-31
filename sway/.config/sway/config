@@ -277,4 +277,6 @@
     repeat_rate 40
     }
 
+    exec autotiling
+
     include /etc/sway/config.d/*
