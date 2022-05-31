@@ -104,7 +104,7 @@
     bindsym $mod+Shift+m exec notify-send " Play Something on Spotify" --expire-time=3000; $play
 
   # start file:
-    bindsym $mod+t exec notify-send "ﱮ File Manager" --expire-time=3000; exec $file
+    bindsym $mod+t exec notify-send "File Manager ﱮ" --expire-time=3000; exec $file
 
   # lock:
     bindsym $mod+ctrl+l exec swaylock 
