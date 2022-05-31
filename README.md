@@ -5,7 +5,7 @@ dotfiles
 <sub><em>WIP..</em></sub>
 </p>
 
-<samp><b>Mao's linux custom config files</b></samp>
+<samp align="center"><b>Mao's linux custom config files</b></samp>
 
 <p align="center"><samp>Dependencies</samp></p>
 <p align="center">
