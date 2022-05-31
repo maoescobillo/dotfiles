@@ -141,26 +141,26 @@
 #-------------------------
   
   # move your focus with hjkl
-	  bindsym $mod+$left focus left
-	  bindsym $mod+$down focus down
-	  bindsym $mod+$up focus up
-  	bindsym $mod+$right focus right
+     bindsym $mod+$left focus left
+     bindsym $mod+$down focus down
+     bindsym $mod+$up focus up
+     bindsym $mod+$right focus right
   # move your focus with arrow keys
-	  bindsym $mod+Left focus left
-	  bindsym $mod+Down focus down
-	  bindsym $mod+Up focus up
-	  bindsym $mod+Right focus right
+     bindsym $mod+Left focus left
+     bindsym $mod+Down focus down
+     bindsym $mod+Up focus up
+     bindsym $mod+Right focus right
 
   # move the focused window
-	  bindsym $mod+Shift+$left move left
-	  bindsym $mod+Shift+$down move down
-	  bindsym $mod+Shift+$up move up
-	  bindsym $mod+Shift+$right move right
+     bindsym $mod+Shift+$left move left
+     bindsym $mod+Shift+$down move down
+     bindsym $mod+Shift+$up move up
+     bindsym $mod+Shift+$right move right
   # with arrow keys
-	  bindsym $mod+Shift+Left move left
-	  bindsym $mod+Shift+Down move down
-	  bindsym $mod+Shift+Up move up
-	  bindsym $mod+Shift+Right move right
+     bindsym $mod+Shift+Left move left
+     bindsym $mod+Shift+Down move down
+     bindsym $mod+Shift+Up move up
+     bindsym $mod+Shift+Right move right
 
   # switch to workspace:
     bindsym $mod+1 workspace number $ws1
@@ -171,12 +171,12 @@
     bindsym $mod+6 workspace number $ws6
   
   # move focused container to workspace
-	  bindsym $mod+Shift+1 move container to workspace number $ws1
-	  bindsym $mod+Shift+2 move container to workspace number $ws2
-	  bindsym $mod+Shift+3 move container to workspace number $ws3
-	  bindsym $mod+Shift+4 move container to workspace number $ws4
-	  bindsym $mod+Shift+5 move container to workspace number $ws5
-	  bindsym $mod+Shift+6 move container to workspace number $ws6
+    bindsym $mod+Shift+1 move container to workspace number $ws1
+    bindsym $mod+Shift+2 move container to workspace number $ws2
+    bindsym $mod+Shift+3 move container to workspace number $ws3
+    bindsym $mod+Shift+4 move container to workspace number $ws4
+    bindsym $mod+Shift+5 move container to workspace number $ws5
+    bindsym $mod+Shift+6 move container to workspace number $ws6
 
 #------------------
 #-- Layout suff: --
