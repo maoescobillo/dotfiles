@@ -7,7 +7,10 @@ dotfiles
 
 <samp><b>Mao's linux custom config files</b></samp>
 
-###### Dependencies 
+<p align="center"><samp>Dependencies</samp></p>
+<p align="center">
+<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WM | Sway<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
+
   - WM: Sway
   - Terminal: Alacritty
   - Shell: zsh, bash
@@ -19,6 +22,7 @@ dotfiles
   - Web Browser: Brave, firefox
   - Status Bar: Waybar
   - Launcher: Rofi
+</p>
 
 ###### Installation
 
