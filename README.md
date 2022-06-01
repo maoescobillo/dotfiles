@@ -5,8 +5,10 @@ dotfiles
 
 <samp><b>Mao's linux custom config files <em>WIP</em></b></samp>
 
-<p align="center">
-<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WM | Sway<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminal | Alacritty<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shell | zsh, bash<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font |  <a href="https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized">SF Mono Nerd Font Ligaturized</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminal | Alacritty<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminal | Alacritty<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terminal | Alacritty<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
+
+<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Theme | Theme<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font | Input Mono<br>
+&nbsp;File Icons | File Icons<br>Product Icons | Carbon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</samp></sub>
+</p>
 
   - WM: Sway
   - Terminal: Alacritty
