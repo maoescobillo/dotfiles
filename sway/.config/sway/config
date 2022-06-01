@@ -86,6 +86,7 @@
 
   # start a terminal:
     bindsym $mod+Return exec $term
+    bindsym $mod+Shift+Return exec $term --class=floating
     bindsym $mod+m exec alacritty -e btm
 
   # start browser:
@@ -129,12 +130,13 @@
 #------------
 
   # window rules:
+    for_window [app_id="floating"] floating enable
     for_window [app_id="brave-browser"] border none, move to workspace $ws2
-    for_window [app_id="mpv"] floating enable, border pixel 2
-    for_window [app_id="thunar"] floating enable, move to workspace $ws3
-    for_window [class="Lxappearance"] floating enable, border pixel 2
+    for_window [app_id="mpv"] floating enable, border none
+    for_window [app_id="thunar"] floating enable, border none, move to workspace $ws3
+    for_window [class="Lxappearance"] floating enable, border none 
     for_window [class="feh"] floating enable, border none
-    for_window [class="Spotify"] move to workspace $ws6
+    for_window [class="Spotify"] floating enable, border none, move to workspace $ws6
 
 #-------------------------
 #-- Workspaces and Nav: --
@@ -247,7 +249,7 @@
   
   # borders:
     default_border pixel 2
-    default_floating_border pixel 2
+    default_floating_border none
     smart_borders on
     hide_edge_borders none
   

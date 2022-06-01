@@ -1,0 +1,15 @@
+#!/bin/bash
+set -e
+
+AREA=$(slurp)
+FILE=/home/mao/record.gif
+
+notify-send -a control -u low \
+  "WF-RECORDER" "Recording started" 
+
+wf-recorder -f "$FILE" -c gif -g "$AREA"
+
+curl -F"file=@$FILE"  https://0x0.st | wl-copy
+
+notify-send -a control -u low \
+  "WF-RECORDER" "Recording uploaded" 
