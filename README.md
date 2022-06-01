@@ -13,7 +13,7 @@ dotfiles
   - WM: Sway
   - Terminal: Alacritty
   - Shell: zsh, bash
-  - Font: [SF Mono Nerd Font Ligaturized] (https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized)
+  - Font: [SF Mono Nerd Font Ligaturized](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized)
   - Notification: Mako
   - Text Editor: Neovim
   - PDF Viewer: Zathura
