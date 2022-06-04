@@ -121,9 +121,9 @@
   
   # screeenshot:
     bindsym $mod+Print	exec grimshot --notify save active
-	  bindsym Shift+Print	exec grimshot --notify save area
-	  bindsym Print		exec grimshot --notify save output
-	  bindsym Ctrl+Print	exec grimshot --notify save window
+    bindsym Shift+Print	exec grimshot --notify save area
+    bindsym Print exec grimshot --notify save output
+    bindsym Ctrl+Print	exec grimshot --notify save window
 
 #------------
 #-- Rules: --
